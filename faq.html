@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Zen+Kaku+Gothic+New&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>ロゴスランド：LOGOS LAND</title>
+
+</head>
+
+<body class="position-relative h-100 w-100 bg-secondary">
+
+
+  <div class="bg-bgwhite maindiv">
+    <!-- 邊框start -->
+    <div>
+      <div class="mainborder position-fixed top-0 z-index-m w-100"></div>
+      <img src="imgs/bg_sp.svg" alt="" class="position-fixed z-index-m mainborderradius">
+      <div class="mainborder position-fixed bottom-0 z-index-m w-100"></div>
+      <img src="imgs/bg_sp.svg" alt="" class="position-fixed z-index-m mainborderradius leftbottom">
+      <div class="mainborder position-fixed end-0 z-index-m h-100"></div>
+      <img src="imgs/bg_sp.svg" alt="" class="position-fixed z-index-m mainborderradius rightbottom">
+    </div>
+    <!-- 邊框end -->
+
+
+    <!-- header -->
+    <header class=" bg-secondary d-flex flex-column align-items-center z-index-t">
+      <a href="#offcanvasExample" class="d-flex flex-column align-items-center text-decoration-none"
+        data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">
+        <img src="imgs/logo_white_beside.svg" alt="" class="maxhide" style="width: 165px;">
+      </a>
+
+      <div class="offcanvas offcanvas-start bg-secondary" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <a href="index.html" class="d-flex flex-column align-items-center text-decoration-none">
+            <img src="imgs/logo_white.svg" alt="" class="my-4" style="width: 90px;">
+          </a>
+          <div>
+            <a href="news.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+              <!-- https://logosland.jp/news -->
+              <h4 class="text-light fw-bold">NEWS</h4>
+              <p class="text-light fs-6 fw-bold">お知らせ</p>
+            </a>
+
+            <a href="eat.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+              <!-- https://logosland.jp/enjoy/restaurant-cafe/restaurant-menu -->
+              <h4 class="text-light fw-bold">EAT</h4>
+              <p class="text-light fs-6 fw-bold">たべる</p>
+            </a>
+            <a href="play.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+              <!-- https://logosland.jp/enjoy/playground -->
+              <h4 class="text-light fw-bold">PLAY</h4>
+              <p class="text-light fs-6 fw-bold">あそぶ</p>
+            </a>
+            <a href="faq.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+              <h4 class="text-light fw-bold">FAQ</h4>
+              <p class="text-light fs-6 fw-bold">よくあるご質問</p>
+            </a>
+            <div class="w-100 mt-5 position-absolute bottom-0 start-50 translate-middle-x">
+              <ol class="d-flex flex-column align-items-center mb-5">
+                <li class="">
+                  <img src="imgs/icon_order_secondary.png" alt="" class="icon">
+                  <a href="reservation.html" class="text-light fs-10 fw-bold text-decoration-none">予約する　　</a>
+                </li>
+                <li class="">
+                  <img src="imgs/icon_contact_secondary.png" alt="" class="icon">
+                  <a href="contact.html" class="text-light fs-10 fw-bold text-decoration-none">お問い合わせ</a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="index.html" class="d-flex flex-column align-items-center text-decoration-none">
+        <img src="imgs/logo_white.svg" alt="" class="my-4 minhide" style="width: 90px;">
+      </a>
+      <div class="minhide">
+        <a href="news.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+          <!-- https://logosland.jp/news -->
+          <h4 class="text-light fw-bold">NEWS</h4>
+          <p class="text-light fs-6 fw-bold">お知らせ</p>
+        </a>
+
+        <a href="eat.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+          <!-- https://logosland.jp/enjoy/restaurant-cafe/restaurant-menu -->
+          <h4 class="text-light fw-bold">EAT</h4>
+          <p class="text-light fs-6 fw-bold">たべる</p>
+        </a>
+        <a href="play.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+          <!-- https://logosland.jp/enjoy/playground -->
+          <h4 class="text-light fw-bold">PLAY</h4>
+          <p class="text-light fs-6 fw-bold">あそぶ</p>
+        </a>
+        <a href="faq.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+          <h4 class="text-light fw-bold">FAQ</h4>
+          <p class="text-light fs-6 fw-bold">よくあるご質問</p>
+        </a>
+        <div class="w-100 mt-5 position-absolute bottom-0 start-50 translate-middle-x">
+          <ol class="d-flex flex-column align-items-center mb-5">
+            <li class="">
+              <img src="imgs/icon_order_secondary.png" alt="" class="icon">
+              <a href="reservation.html" class="text-light fs-10 fw-bold text-decoration-none">予約する　　</a>
+            </li>
+            <li class="">
+              <img src="imgs/icon_contact_secondary.png" alt="" class="icon">
+              <a href="contact.html" class="text-light fs-10 fw-bold text-decoration-none">お問い合わせ</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- main -->
+    <main class="position-relative">
+      <!-- 登入視窗start  -->
+      <div class="position-relative">
+        <button type="button" class="btn bg-primary loginbutton position-fixed z-index-t" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">
+          <i class="bi bi-person-circle text-light fs-2 position-absolute top-50 translate-middle" style="left:50%"></i>
+        </button>
+        <div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ログイン</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="" class="needs-validation px-3" novalidate>
+                  <div class="mt-3 mb-4">
+                    <lable for="account">メールアドレス</lable>
+                    <input type="text" id="account" name="account" placeholder="メールアドレス入力してください"
+                      class="form-control mt-1" required>
+                    <div class="invalid-feedback">
+                      メールアドレス入力してください
+                    </div>
+                  </div>
+                  <div class="mb-4">
+                    <lable for="password">パスワード</lable>
+                    <input type="password" id="password" name="password" placeholder="パスワード入力してください"
+                      class="form-control mt-1" required>
+                    <div class="invalid-feedback">
+                      パスワード入力してください
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div class="mb-3 form-check d-inline-block position-relative p-0">
+                      <input type="checkbox" class="form-check-input position-absolute top-0 start-0"
+                        id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1"><span>ログイン情報を保存する</span></label>
+                    </div>
+                  </div>
+                  <div class="text-center my-3">
+                    <input type="submit" class="bg-secondary mx-auto border-0 rounded-pill py-3 px-9 text-white fw-bold"
+                      value="ログインする">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 登入視窗end -->
+
+      <!-- 麵包屑start -->
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="fs-10 fw-bold breadcrumb-item"><a href="index.html">ホーム</a></li>
+          <li class="fs-10 fw-bold breadcrumb-item"><a href="contact.html">お問い合わせ</a></li>
+          <li class="fs-10 fw-bolder breadcrumb-item active" aria-current="page">よくあるご質問</li>
+
+        </ol>
+      </nav>
+      <!-- 麵包屑end -->
+
+
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-12">
+            <div class="pt-5">
+              <h1 class="fs-1 fw-bolder text-secondary">FAQ</h1>
+              <p class="fs-6 fw-bold">
+                よくあるご質問</p>
+            </div>
+            <div class="c-mainVisualPage__body pb-5">
+              <div class="c-mainVisualPage__excerpt js_loaded_desc _loaded">
+                <p>ロゴスランドの利用についてやこのサイトの使い方についてなどよくあるご質問をまとめています。<br>こちらで確認できないことはお問い合わせフォームよりご質問ください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <!-- 頁籤start -->
+            <div class="mb-5">
+              <!-- 頁籤按鈕 start -->
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">施設について</button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">宿泊について</button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">その他</button>
+                </div>
+              </nav>
+              <!-- 頁籤按鈕 end -->
+              <!-- 頁籤內容 start -->
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <!-- faq手風琴1 -->
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                          駐車料金を教えてください。
+                        </button>
+                      </h2>
+                      <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1">
+                        <div class="accordion-body">
+                          入庫後30分まで無料、30分～１時間以内100円、2～3時間以内200円、3～4時間以内300円、1時間につき100円ごと加算。
+                          園内で平日税込1,000円以上、休日税込2,000円以上で無料。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          犬は園内に入れますか？
+                        </button>
+                      </h2>
+                      <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2">
+                        <div class="accordion-body">
+                          ドッグラン及び第2駐車場からドッグランまでの通路以外は犬の同伴をご遠慮頂いております。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                          遊具に使用料はありますか？
+                        </button>
+                      </h2>
+                      <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3">
+                        <div class="accordion-body">
+                          遊具に使用料はございません。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                          入場料はかかりますか？
+                        </button>
+                      </h2>
+                      <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4">
+                        <div class="accordion-body">
+                          入場料はかかりません。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                          宿泊、BBQの予約はいつからできますか？
+                        </button>
+                      </h2>
+                      <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5">
+                        <div class="accordion-body">
+                          ご利用日の60日前の0時から予約開始です。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                          団体で利用したい場合、予約はどのような形で行いますか？
+                        </button>
+                      </h2>
+                      <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6">
+                        <div class="accordion-body">
+                          団体の宿泊、BBQのご予約は180日前より承っております。プラムイン城陽宛にお電話下さい。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                          大浴場は日帰りでも利用できますか？
+                        </button>
+                      </h2>
+                      <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7">
+                        <div class="accordion-body">
+                          ご利用可能です。プラムイン城陽1階にて19時まで受付しております。定休日もございますのでご利用予定のお客様は事前にお問合せ下さい。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                          研修室の予約方法を教えてください。
+                        </button>
+                      </h2>
+                      <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8">
+                        <div class="accordion-body">
+                          研修室のご予約はお電話にて承っております。プラムイン城陽までお電話下さい。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                          予約人数や内容の変更を行いたいのですが、どうすれば良いですか？
+                        </button>
+                      </h2>
+                      <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9">
+                        <div class="accordion-body">
+                          プラムイン城陽、アイリスイン城陽までお電話でお問合せ下さい。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  <!-- faq手風琴2 -->
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                          1部屋の宿泊人数が変わると宿泊料金は変わりますか？
+                        </button>
+                      </h2>
+                      <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10">
+                        <div class="accordion-body">
+                          宿泊された人数に応じて料金が加算されます。詳しくはご予約のページをご覧ください。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading11">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                          お部屋にお手洗いやシャワーはありますか？
+                        </button>
+                      </h2>
+                      <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11">
+                        <div class="accordion-body">
+                          プラムイン城陽は全室に完備しております。アイリスイン城陽は一部の部屋を除き、共用部分をご利用頂きます。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading12">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                          早くチェックインすることはできますか？
+                        </button>
+                      </h2>
+                      <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12">
+                        <div class="accordion-body">
+                          お部屋への入場は15時ですが、事前にお荷物をお預かりすることが出来ます。お気軽にお申し付けください。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                          お部屋に飲食物を持ち込んでもいいですか？
+                        </button>
+                      </h2>
+                      <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13">
+                        <div class="accordion-body">
+                          離乳食やミルクを除く飲食物のお持ち込みはご遠慮頂いております。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  <!-- faq手風琴3 -->
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading14">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse14" aria-expanded="true" aria-controls="collapse14">
+                          雨の場合もBBQはできますか？
+                        </button>
+                      </h2>
+                      <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14">
+                        <div class="accordion-body">
+                          雨量や風速により状況が変化します。通常通りBBQのサービスが提供できないと判断した場合は、3日前にご連絡を差し上げ、キャンセル料無料でのキャンセルを受付させていただきます。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading15">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse15" aria-expanded="true" aria-controls="collapse15">
+                          BBQで包丁やまな板のレンタルはありますか？
+                        </button>
+                      </h2>
+                      <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15">
+                        <div class="accordion-body">
+                          包丁やまな板のご用意はございませんが、ハサミは無料で貸し出しを行っております。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading16">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse16" aria-expanded="true" aria-controls="collapse16">
+                          BBQに食材の持ち込みはできますか？
+                        </button>
+                      </h2>
+                      <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16">
+                        <div class="accordion-body">
+                          BBQスタジアムの食材持ち込みセットをご選択されたお客様のみ持ち込み可能です。
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading17">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse17" aria-expanded="true" aria-controls="collapse17">
+                          キャンセル料はいつから発生しますか？
+                        </button>
+                      </h2>
+                      <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17">
+                        <div class="accordion-body">
+                          ご利用日の7日前から発生します。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 頁籤內容 end -->
+            </div>
+            <!-- 頁籤end -->
+          </div>
+          <div class="col-12 bg-secondary d-flex flex-column justify-content-center align-items-center">
+            <h2 class="mt-5 text-white fw-blod">お問い合わせ</h2>
+            <p class="fs-10 text-white mb-3">対応時間 9：00〜18：00</p>
+            <p class="fs-10 text-white text-center">上記に当てはまらないご質問がある⽅は <br> 下記よりご連絡をお願いいたします。担当者が追ってご説明いたします。</p>
+            <a href="contact.html">
+              <div class="fs-10 fw-blod bg-white py-3 px-5 rounded-pill mb-5">お問い合わせをする</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+
+    <!-- footer -->
+    <footer class="p-3 bg-light text-center mt-5">
+      此檔案為上課練習使用，不作為任何商業用途
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="validation.js"></script>
+</body>
+
+</html>

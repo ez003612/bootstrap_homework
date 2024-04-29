@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Zen+Kaku+Gothic+New&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ロゴスランド：LOGOS LAND</title>
+
+</head>
+
+<body class="position-relative h-100 w-100 bg-secondary">
+
+
+    <div class="bg-bgwhite maindiv">
+        <!-- 邊框start -->
+        <div>
+            <div class="mainborder position-fixed top-0 z-index-m w-100"></div>
+            <img src="imgs/bg_sp.svg" alt="" class="position-fixed z-index-m mainborderradius">
+            <div class="mainborder position-fixed bottom-0 z-index-m w-100"></div>
+            <img src="imgs/bg_sp.svg" alt="" class="position-fixed z-index-m mainborderradius leftbottom">
+            <div class="mainborder position-fixed end-0 z-index-m h-100"></div>
+            <img src="imgs/bg_sp.svg" alt="" class="position-fixed z-index-m mainborderradius rightbottom">
+        </div>
+        <!-- 邊框end -->
+
+
+        <!-- header -->
+        <header class=" bg-secondary d-flex flex-column align-items-center z-index-t">
+            <a href="#offcanvasExample" class="d-flex flex-column align-items-center text-decoration-none"
+                data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">
+                <img src="imgs/logo_white_beside.svg" alt="" class="maxhide" style="width: 165px;">
+            </a>
+
+            <div class="offcanvas offcanvas-start bg-secondary" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <a href="index.html" class="d-flex flex-column align-items-center text-decoration-none">
+                        <img src="imgs/logo_white.svg" alt="" class="my-4" style="width: 90px;">
+                    </a>
+                    <div>
+                        <a href="news.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                            <!-- https://logosland.jp/news -->
+                            <h4 class="text-light fw-bold">NEWS</h4>
+                            <p class="text-light fs-6 fw-bold">お知らせ</p>
+                        </a>
+
+                        <a href="eat.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                            <!-- https://logosland.jp/enjoy/restaurant-cafe/restaurant-menu -->
+                            <h4 class="text-light fw-bold">EAT</h4>
+                            <p class="text-light fs-6 fw-bold">たべる</p>
+                        </a>
+                        <a href="play.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                            <!-- https://logosland.jp/enjoy/playground -->
+                            <h4 class="text-light fw-bold">PLAY</h4>
+                            <p class="text-light fs-6 fw-bold">あそぶ</p>
+                        </a>
+                        <a href="faq.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                            <h4 class="text-light fw-bold">FAQ</h4>
+                            <p class="text-light fs-6 fw-bold">よくあるご質問</p>
+                        </a>
+                        <div class="w-100 mt-5 position-absolute bottom-0 start-50 translate-middle-x">
+                            <ol class="d-flex flex-column align-items-center mb-5">
+                                <li class="">
+                                    <img src="imgs/icon_order_secondary.png" alt="" class="icon">
+                                    <a href="reservation.html"
+                                        class="text-light fs-10 fw-bold text-decoration-none">予約する　　</a>
+                                </li>
+                                <li class="">
+                                    <img src="imgs/icon_contact_secondary.png" alt="" class="icon">
+                                    <a href="contact.html"
+                                        class="text-light fs-10 fw-bold text-decoration-none">お問い合わせ</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="index.html" class="d-flex flex-column align-items-center text-decoration-none">
+                <img src="imgs/logo_white.svg" alt="" class="my-4 minhide" style="width: 90px;">
+            </a>
+            <div class="minhide">
+                <a href="news.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                    <!-- https://logosland.jp/news -->
+                    <h4 class="text-light fw-bold">NEWS</h4>
+                    <p class="text-light fs-6 fw-bold">お知らせ</p>
+                </a>
+
+                <a href="eat.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                    <!-- https://logosland.jp/enjoy/restaurant-cafe/restaurant-menu -->
+                    <h4 class="text-light fw-bold">EAT</h4>
+                    <p class="text-light fs-6 fw-bold">たべる</p>
+                </a>
+                <a href="play.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                    <!-- https://logosland.jp/enjoy/playground -->
+                    <h4 class="text-light fw-bold">PLAY</h4>
+                    <p class="text-light fs-6 fw-bold">あそぶ</p>
+                </a>
+                <a href="faq.html" class="mt-3 d-flex flex-column align-items-center text-decoration-none">
+                    <h4 class="text-light fw-bold">FAQ</h4>
+                    <p class="text-light fs-6 fw-bold">よくあるご質問</p>
+                </a>
+                <div class="w-100 mt-5 position-absolute bottom-0 start-50 translate-middle-x">
+                    <ol class="d-flex flex-column align-items-center mb-5">
+                        <li class="">
+                            <img src="imgs/icon_order_secondary.png" alt="" class="icon">
+                            <a href="reservation.html" class="text-light fs-10 fw-bold text-decoration-none">予約する　　</a>
+                        </li>
+                        <li class="">
+                            <img src="imgs/icon_contact_secondary.png" alt="" class="icon">
+                            <a href="contact.html" class="text-light fs-10 fw-bold text-decoration-none">お問い合わせ</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- main -->
+        <main class="position-relative">
+            <!-- 登入視窗start  -->
+            <div class="position-relative">
+                <button type="button" class="btn bg-primary loginbutton position-fixed z-index-t" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    <i class="bi bi-person-circle text-light fs-2 position-absolute top-50 translate-middle"
+                        style="left:50%"></i>
+                </button>
+                <div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">ログイン</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" class="needs-validation px-3" novalidate>
+                                    <div class="mt-3 mb-4">
+                                        <lable for="account">メールアドレス</lable>
+                                        <input type="text" id="account" name="account" placeholder="メールアドレス入力してください"
+                                            class="form-control mt-1" required>
+                                        <div class="invalid-feedback">
+                                            メールアドレス入力してください
+                                        </div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <lable for="password">パスワード</lable>
+                                        <input type="password" id="password" name="password" placeholder="パスワード入力してください"
+                                            class="form-control mt-1" required>
+                                        <div class="invalid-feedback">
+                                            パスワード入力してください
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="mb-3 form-check d-inline-block position-relative p-0">
+                                            <input type="checkbox"
+                                                class="form-check-input position-absolute top-0 start-0"
+                                                id="exampleCheck1">
+                                            <label class="form-check-label"
+                                                for="exampleCheck1"><span>ログイン情報を保存する</span></label>
+                                        </div>
+                                    </div>
+                                    <div class="text-center my-3">
+                                        <input type="submit"
+                                            class="bg-secondary mx-auto border-0 rounded-pill py-3 px-9 text-white fw-bold"
+                                            value="ログインする">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 登入視窗end -->
+
+            <!-- 麵包屑start -->
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="fs-10 fw-bold breadcrumb-item"><a href="index.html">ホーム</a></li>
+                    <li class="fs-10 fw-bolder breadcrumb-item active" aria-current="page">ロゴスランドからのお知らせ</li>
+                </ol>
+            </nav>
+            <!-- 麵包屑end -->
+
+            <!-- 頁籤start -->
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="pt-5">
+                            <h1 class="fs-1 fw-bolder text-secondary">NEWS</h1>
+                            <p class="fs-6 fw-bold">
+                                ロゴスランドからのお知らせ</p>
+                        </div>
+                        <div class="c-mainVisualPage__body pb-5">
+                            <div class="c-mainVisualPage__excerpt js_loaded_desc _loaded">
+                                <p>ニュースやキャンペーン情報などの旬なお知らせを更新。<br>予約や利用の際に、ぜひチェックしてみてください。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="pb-4">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="news-tab" data-bs-toggle="tab"
+                                        data-bs-target="#news" type="button" role="tab" aria-controls="news"
+                                        aria-selected="false">お知らせ</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="eat-tab" data-bs-toggle="tab" data-bs-target="#eat"
+                                        type="button" role="tab" aria-controls="eat" aria-selected="false">たべる</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="play-tab" data-bs-toggle="tab" data-bs-target="#play"
+                                        type="button" role="tab" aria-controls="play" aria-selected="false">あそぶ</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <!-- (.col-6>.d-flex.flex-row.p-4.my-3.bg-white.rounded.position-relative>span.text-primary.fw-bolder.position-absolute.top-0.end-0.translate-middle.p-3{NEW}+img.imgFit[src="imgs/news($).jpg" style="width:150px;height:150px;"]+.d-flex.flex-column.justify-content-center.ps-3>.d-flex.flex-row>p.px-1.mx-1.text-light.bg-secondary.fs-10.fw-bold{お知らせ}+p.px-1.mx-1.fw-bold^p)*10 -->
+                            <!-- ALL -->
+                            <div class="tab-pane fade show active" id="news" role="tabpanel"
+                                aria-labelledby="profile-tab">
+                                <div class="container-fluid">
+                                    <div class="row gx-5 ">
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span>
+                                                <img src="imgs/news(1).jpg" style="width: 150px;height: 150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.04.24</p>
+                                                    </div>
+                                                    <p>GW期間の臨時駐車場のご案内</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span>
+                                                <img src="imgs/news(2).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.04.21</p>
+                                                    </div>
+                                                    <p>100名以上の団体も大歓迎です！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span>
+                                                <img src="imgs/news(3).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.04.17</p>
+                                                    </div>
+                                                    <p>初夏のアウトドアシーズン到来！　期間限定　ロゴスランドキッズフライデー開催‼</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span><img
+                                                    src="imgs/news(4).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.04.13</p>
+                                                    </div>
+                                                    <p>※日帰りのお客様も歓迎！※「焚き火」半額キャンペーン継続決定！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span><img
+                                                    src="imgs/news(5).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.04.03</p>
+                                                    </div>
+                                                    <p>現地でふるさと納税が使えるテーマパーク！？</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span><img
+                                                    src="imgs/news(6).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.03.09</p>
+                                                    </div>
+                                                    <p>トレックエッグハンティング2024開催！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span><img
+                                                    src="imgs/news(7).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.02.26</p>
+                                                    </div>
+                                                    <p>＼GWの予約がスタートします／</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news(8).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.02.02</p>
+                                                    </div>
+                                                    <p>大浴場 貸し切り時間のご案内（2024.4.3更新）</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news(9).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2024.02.02</p>
+                                                    </div>
+                                                    <p>フリースペースご利用不可日について (2024.4.3更新)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news(10).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">お知らせ</span>　2023.12.28</p>
+                                                    </div>
+                                                    <p>1月限定　きょうと魅力再発見旅プロジェクト延長！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="eat" role="tabpanel" aria-labelledby="eat-tab">
+                                <div class="container-fluid">
+                                    <div class="row gx-5 ">
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span>
+                                                <img src="imgs/news-eat(1).jpg" style="width: 150px;height: 150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2024.03.22</p>
+                                                    </div>
+                                                    <p>LOGOS BBQスタジアムにて「BBQガチャ」がスタート！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span>
+                                                <img src="imgs/news-eat(2).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2024.03.18</p>
+                                                    </div>
+                                                    <p>BBQスタジアム追加メニューについて</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <span
+                                                    class="text-primary fw-bolder position-absolute top-0 end-0 translate-middle">NEW</span>
+                                                <img src="imgs/news-eat(3).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2024.03.08</p>
+                                                    </div>
+                                                    <p>レストラン・カフェ新メニュー登場！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news-eat(4).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2024.01.21</p>
+                                                    </div>
+                                                    <p>バレンタイン期間限定！『ベリーサンデー・ココアチュロス』販売中！！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news-eat(5).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2024.01.20</p>
+                                                    </div>
+                                                    <p>BBQ新メニュー『スキレットdeぐつぐつチーズのチキンライス』販売中！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news-eat(6).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2024.01.02</p>
+                                                    </div>
+                                                    <p>レストラン利用不可日時に関しまして（2024.4.3更新）</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news-eat(7).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2023.03.30</p>
+                                                    </div>
+                                                    <p>BBQスタジアム追加メニューについて</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news-eat(8).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2022.06.27</p>
+                                                    </div>
+                                                    <p>平日限定　丸鶏BBQプランスタート！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news-eat(9).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2022.03.01</p>
+                                                    </div>
+                                                    <p>駄菓子を買ってピクニック！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/news-eat(10).jpg" alt=""
+                                                    style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">たべる</span>　2022.01.20</p>
+                                                    </div>
+                                                    <p>BBQのご予約につきまして</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="play" role="tabpanel" aria-labelledby="play-tab">
+                                <div class="container-fluid">
+                                    <div class="row gx-5 ">
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/play(1).jpg" style="width: 150px;height: 150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">あそぶ</span>　2023.10.13</p>
+                                                    </div>
+                                                    <p>LOGOS LAND 秋のDOG RUNキャンペーン！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/play(2).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">あそぶ</span>　2022.06.23</p>
+                                                    </div>
+                                                    <p>木曜KIDS DAY　第一弾！　鳥があつまる？バードコール作り</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/play(3).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">あそぶ</span>　2022.06.20</p>
+                                                    </div>
+                                                    <p>【京大生考案企画】　毎週木曜日　「KIDS DAY」開催決定！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/play(4).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">あそぶ</span>　2021.02.28</p>
+                                                    </div>
+                                                    <p>ドッグラン　NEW OPEN！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="d-flex flex-row p-4 my-3 bg-white rounded position-relative">
+                                                <img src="imgs/play(5).jpg" alt="" style="width:150px;height:150px;">
+                                                <div class="d-flex flex-column justify-content-center ps-3">
+                                                    <div>
+                                                        <p class="px-1 mx-1 fw-bold d-flex align-items-center"><span
+                                                                class="badge bg-secondary">あそぶ</span>　2018.04.27</p>
+                                                    </div>
+                                                    <p>大人気遊具　ふわふわドーム！</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 頁籤end -->
+
+        </main>
+
+        <!-- footer -->
+        <footer class="p-3 bg-light text-center mt-5">
+            此檔案為上課練習使用，不作為任何商業用途
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="validation.js"></script>
+</body>
+
+</html>
